@@ -2,7 +2,7 @@ sudo: required
 services: 
   - docker
 
-before_instalL:
+before_install:
   - docker build -t evanlivelo/docker-react -f Dockerfile.dev .
 
 script:
